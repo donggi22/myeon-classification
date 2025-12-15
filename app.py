@@ -18,7 +18,7 @@ MODEL_PATH = BASE_DIR / "default.pt"
 
 # 너 깃헙 릴리스에 올린 .pt 주소 (필요시 바꿔)
 GITHUB_ASSET_URL = (
-    "https://github.com/KimJoohyung4232/rlawngud/releases/download/v1.0.0/default.pt"
+    "https://github.com/donggi22/meyon-classification/releases/download/v1.0.0/default.pt"
 )
 
 DEVICE = "mps" if torch.backends.mps.is_available() else (
